@@ -1,0 +1,8 @@
+{
+  "build_order": ["backend", "frontend", "config"],
+  "batches": {
+    "backend": ["api.py", "db.py"],
+    "frontend": ["app.tsx"],
+    "config": ["env.yaml"]
+  }
+}
